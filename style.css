@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+#nav {
+  height: 80px;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+img {
+  height: 60px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-part2 {
+  gap: 1rem;
+}
+.nav-part3 {
+  gap: 1rem;
+}
+
+#nav button {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+#main h1 {
+  font-size: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main h1 span {
+  background-color: brown;
+  padding: 25px 40px;
+  border-radius: 50px;
+  margin: 0 50px;
+
+  font-size: 2rem;
+}
+
+#main h1:nth-child(2) {
+  color: red;
+  margin-top: 60px;
+}
+
+#main #left-img {
+  height: 300px;
+  position: absolute;
+  top: 19%;
+  left: 8%;
+}
+
+#main #right-img {
+  height: 300px;
+  position: absolute;
+  bottom: 19%;
+  right: 8%;
+}
+
+h5 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 1rem;
+}
